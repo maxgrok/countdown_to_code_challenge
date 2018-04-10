@@ -10,3 +10,11 @@ development:
   database: blog_development
   pool: 5
   host: localhost
+
+  production:
+  adapter: postgresql
+  encoding: unicode
+  database: blog_development
+  pool: 5
+  host: localhost
+  statement_limit: 200
