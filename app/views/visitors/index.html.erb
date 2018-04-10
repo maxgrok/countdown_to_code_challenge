@@ -1,8 +1,19 @@
 <div class="jumbotron">
-  <h1 class="display-2">Welcome</h1>
+  <h1 class="display-2" style="text-align:center;">Welcome</h1>
   <p class="lead">
-    This web application was created with
-    <%= link_to('Rails Composer', 'http://railsapps.github.io/rails-composer/') %>
-    from the <%= link_to('RailsApps project', 'http://railsapps.github.io/') %>.
-  </p>
+
+<div id="getting-started"></div>
+<script type="text/javascript">
+  $("#getting-started")
+  .countdown("2018/04/10 15:00:00", function(event) {
+    $(this).text(
+      event.strftime('%N minutes %S seconds')
+    );
+
+  });
+</script>
+<div style ="text-align:center;">until next lecture!</div>
+<hr>
+    <div style="text-align:center;">Made with <%= image_tag "heart.svg", size: "16x10", alt: "Heart" %> by Max</div>
+     <div style="text-align:center;">Flatiron School Student</div>
 </div>
