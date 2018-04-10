@@ -12,14 +12,8 @@
 //
 //
 //= require jquery
-//= require jquery_ujs
 //= require rails-ujs
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .
-  $("#getting-started")
-  .countdown("2018/04/10 15:00:00", function(event) {
-    $(this).text(
-      event.strftime('%N minutes %S seconds')
-    );
-  });
+ 
