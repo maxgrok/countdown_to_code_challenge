@@ -17,7 +17,7 @@ http://railsapps.github.io/
 
 # Reflections 
 
-I came up with some challenges, but they were minimal once I found code that actually worked. I tried the 'countdown' gem and the 'js-countdown-rails' gem. Neither of them worked terribly well. So, I ended up going with a simple jQuery plugin that can be found here:<a href="https://github.com/hilios/jQuery.countdown">jQuery Countdown</a>.
+I came up with some challenges, but they were minimal once I found code that actually worked. I tried the 'countdown' gem and the 'js-countdown-rails' gem. Neither of them worked terribly well. So, I ended up going with a simple jQuery plugin that can be found here: <a href="https://github.com/hilios/jQuery.countdown">jQuery Countdown</a>.
 
 I also needed to remove the remote git that pointed to the rails-app-composer git repo and replace it with my own git remote repo that I made, but the challenges were minimal. 
 
