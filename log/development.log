@@ -2580,3 +2580,13 @@ Processing by VisitorsController#index as HTML
 Completed 200 OK in 984ms (Views: 567.9ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-04-10 12:58:26 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (490.4ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (7.3ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1152ms (Views: 688.8ms)
+
+
