@@ -25,6 +25,8 @@ I also needed to remove the remote git that pointed to the rails-app-composer gi
 
 Add additional features and submit a pull request
 
+License: <a href="https://creativecommons.org/licenses/by/4.0/">CC 4.0</a>
+
 
 
 
