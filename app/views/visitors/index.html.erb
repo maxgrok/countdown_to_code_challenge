@@ -12,7 +12,7 @@
 <script type="text/javascript">
       var clock;
 
-      $(document).on('page:change', function() {
+      $(document).on('turbolinks:load', function() {
 
         // Instantiate a counter
         clock = new FlipClock($('.clock'), 300, {
