@@ -2,6 +2,7 @@
   "name": "rails-bootstrap",
   "private": true,
   "dependencies": {
+    "flipclock": "^0.8.2",
     "jquery": "^3.3.1"
   }
 }
