@@ -8,19 +8,3 @@
     <div style="text-align:center;">Made with <%= image_tag "heart.svg", size: "16x10", alt: "Heart" %> by Max</div>
      <div style="text-align:center;">Flatiron School Student</div>
 </div>
-
-<script type="text/javascript">
-      var clock;
-
-      var ready = function(){
-        // Instantiate a counter
-        clock = new FlipClock($('.clock'), 300, {
-          clockFace: 'HourlyCounter',
-          autoStart: true,
-          countdown: true
-        });
-      }
-
-$(document).ready(ready);
-$(document).on('turbolinks:load', ready);
-    </script>

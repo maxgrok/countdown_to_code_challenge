@@ -4999,3 +4999,127 @@ puma (3.11.3) lib/puma/server.rb:624:in `handle_request'
 puma (3.11.3) lib/puma/server.rb:438:in `process_client'
 puma (3.11.3) lib/puma/server.rb:302:in `block in run'
 puma (3.11.3) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:03:46 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (251.3ms)
+Completed 500 Internal Server Error in 750ms
+
+
+
+Sprockets::FileNotFound - couldn't find file 'turbolinks' with type 'application/javascript'
+Checked in these paths: 
+  /Users/maxgrok/Documents/Flatiron18/day_24/final_countdown_code_challenge/app/assets/config
+  /Users/maxgrok/Documents/Flatiron18/day_24/final_countdown_code_challenge/app/assets/images
+  /Users/maxgrok/Documents/Flatiron18/day_24/final_countdown_code_challenge/app/assets/javascripts
+  /Users/maxgrok/Documents/Flatiron18/day_24/final_countdown_code_challenge/app/assets/stylesheets
+  /Users/maxgrok/.rvm/gems/ruby-2.4.1@rails-bootstrap/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/maxgrok/.rvm/gems/ruby-2.4.1@rails-bootstrap/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/maxgrok/.rvm/gems/ruby-2.4.1@rails-bootstrap/gems/actioncable-5.1.6/lib/assets/compiled
+  /Users/maxgrok/.rvm/gems/ruby-2.4.1@rails-bootstrap/gems/actionview-5.1.6/lib/assets/compiled
+  /Users/maxgrok/Documents/Flatiron18/day_24/final_countdown_code_challenge/node_modules
+  /Users/maxgrok/.rvm/gems/ruby-2.4.1@rails-bootstrap/gems/popper_js-1.12.9/assets/javascripts
+  /Users/maxgrok/.rvm/gems/ruby-2.4.1@rails-bootstrap/gems/bootstrap-4.0.0/assets/stylesheets
+  /Users/maxgrok/.rvm/gems/ruby-2.4.1@rails-bootstrap/gems/bootstrap-4.0.0/assets/javascripts:
+  app/assets/javascripts/application.js:16:in `'
+  app/views/visitors/index.html.erb:8:in `_app_views_visitors_index_html_erb__1309555247874007561_70099581175140'
+
+Started POST "/__better_errors/c2750f92e4d018a9/variables" for 127.0.0.1 at 2018-04-12 16:03:47 -0400
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:05:06 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (183.9ms)
+Completed 500 Internal Server Error in 391ms
+
+
+
+Sprockets::FileNotFound - couldn't find file 'turbolinks' with type 'application/javascript'
+Checked in these paths: 
+  /Users/maxgrok/Documents/Flatiron18/day_24/final_countdown_code_challenge/app/assets/config
+  /Users/maxgrok/Documents/Flatiron18/day_24/final_countdown_code_challenge/app/assets/images
+  /Users/maxgrok/Documents/Flatiron18/day_24/final_countdown_code_challenge/app/assets/javascripts
+  /Users/maxgrok/Documents/Flatiron18/day_24/final_countdown_code_challenge/app/assets/stylesheets
+  /Users/maxgrok/.rvm/gems/ruby-2.4.1@rails-bootstrap/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/maxgrok/.rvm/gems/ruby-2.4.1@rails-bootstrap/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/maxgrok/.rvm/gems/ruby-2.4.1@rails-bootstrap/gems/actioncable-5.1.6/lib/assets/compiled
+  /Users/maxgrok/.rvm/gems/ruby-2.4.1@rails-bootstrap/gems/actionview-5.1.6/lib/assets/compiled
+  /Users/maxgrok/Documents/Flatiron18/day_24/final_countdown_code_challenge/node_modules
+  /Users/maxgrok/.rvm/gems/ruby-2.4.1@rails-bootstrap/gems/popper_js-1.12.9/assets/javascripts
+  /Users/maxgrok/.rvm/gems/ruby-2.4.1@rails-bootstrap/gems/bootstrap-4.0.0/assets/stylesheets
+  /Users/maxgrok/.rvm/gems/ruby-2.4.1@rails-bootstrap/gems/bootstrap-4.0.0/assets/javascripts:
+  app/assets/javascripts/application.js:16:in `'
+  app/views/visitors/index.html.erb:8:in `_app_views_visitors_index_html_erb__957894239116741440_70227499307420'
+
+Started POST "/__better_errors/75727587ed07eb69/variables" for 127.0.0.1 at 2018-04-12 16:05:06 -0400
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:05:17 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (5049.2ms)
+  Rendered layouts/_navigation_links.html.erb (1.3ms)
+  Rendered layouts/_navigation.html.erb (5.5ms)
+  Rendered layouts/_messages.html.erb (0.9ms)
+Completed 200 OK in 5253ms (Views: 5251.1ms)
+
+
+Started GET "/flipclock.css" for 127.0.0.1 at 2018-04-12 16:05:22 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/flipclock.css"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.3) lib/puma/configuration.rb:225:in `call'
+puma (3.11.3) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.3) lib/puma/server.rb:438:in `process_client'
+puma (3.11.3) lib/puma/server.rb:302:in `block in run'
+puma (3.11.3) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/flipclock.js" for 127.0.0.1 at 2018-04-12 16:05:22 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/flipclock.js"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.3) lib/puma/configuration.rb:225:in `call'
+puma (3.11.3) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.3) lib/puma/server.rb:438:in `process_client'
+puma (3.11.3) lib/puma/server.rb:302:in `block in run'
+puma (3.11.3) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
