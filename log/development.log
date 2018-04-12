@@ -5459,3 +5459,113 @@ Processing by VisitorsController#index as HTML
 Completed 200 OK in 276ms (Views: 273.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:43:01 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (430.2ms)
+  Rendered layouts/_navigation_links.html.erb (0.5ms)
+  Rendered layouts/_navigation.html.erb (3.1ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+Completed 200 OK in 829ms (Views: 623.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:43:08 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_navigation_links.html.erb (0.6ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+Completed 200 OK in 166ms (Views: 164.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:43:14 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (424.8ms)
+  Rendered layouts/_navigation_links.html.erb (1.1ms)
+  Rendered layouts/_navigation.html.erb (6.0ms)
+  Rendered layouts/_messages.html.erb (0.8ms)
+Completed 200 OK in 766ms (Views: 555.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:43:17 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation_links.html.erb (0.8ms)
+  Rendered layouts/_navigation.html.erb (5.0ms)
+  Rendered layouts/_messages.html.erb (0.9ms)
+Completed 200 OK in 64ms (Views: 61.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:43:18 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (5.0ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+Completed 200 OK in 75ms (Views: 73.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:43:21 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_navigation_links.html.erb (0.9ms)
+  Rendered layouts/_navigation.html.erb (4.8ms)
+  Rendered layouts/_messages.html.erb (0.7ms)
+Completed 200 OK in 85ms (Views: 82.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:45:49 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (437.0ms)
+  Rendered layouts/_navigation_links.html.erb (2.0ms)
+  Rendered layouts/_navigation.html.erb (6.0ms)
+  Rendered layouts/_messages.html.erb (0.8ms)
+Completed 200 OK in 852ms (Views: 648.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:45:54 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_navigation_links.html.erb (0.4ms)
+  Rendered layouts/_navigation.html.erb (2.8ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+Completed 200 OK in 61ms (Views: 59.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:46:04 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (298.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.9ms)
+  Rendered layouts/_navigation.html.erb (5.1ms)
+  Rendered layouts/_messages.html.erb (0.7ms)
+Completed 200 OK in 666ms (Views: 448.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:46:15 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation_links.html.erb (0.4ms)
+  Rendered layouts/_navigation.html.erb (2.3ms)
+  Rendered layouts/_messages.html.erb (0.7ms)
+Completed 200 OK in 156ms (Views: 154.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:46:28 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.4ms)
+  Rendered layouts/_navigation.html.erb (2.3ms)
+  Rendered layouts/_messages.html.erb (0.5ms)
+Completed 200 OK in 166ms (Views: 164.6ms)
+
+
