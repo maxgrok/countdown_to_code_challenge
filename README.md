@@ -1,3 +1,9 @@
+# REWRITE PENDING ...
+#Countdown to Code Challenge 
+===========================
+Tomorrow at 10 a.m. 
+
+
 # Lecture Countdown 
 
 I volunteered to build a countdown web app to next lecture at the Flatiron School. Here's what I built. 

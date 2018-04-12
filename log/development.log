@@ -5123,3 +5123,169 @@ puma (3.11.3) lib/puma/server.rb:624:in `handle_request'
 puma (3.11.3) lib/puma/server.rb:438:in `process_client'
 puma (3.11.3) lib/puma/server.rb:302:in `block in run'
 puma (3.11.3) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:14:43 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (410.4ms)
+Completed 500 Internal Server Error in 694ms
+
+
+
+Sprockets::Rails::Helper::AssetNotPrecompiled - Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( flipclock.css )` to `config/initializers/assets.rb` and restart your server:
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___3267478990819412695_70360740666160'
+
+Started POST "/__better_errors/8c48fc0d1f0c0d81/variables" for 127.0.0.1 at 2018-04-12 16:14:44 -0400
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:14:58 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (242.3ms)
+Completed 500 Internal Server Error in 524ms
+
+
+
+Sprockets::Rails::Helper::AssetNotPrecompiled - Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( flipclock.css )` to `config/initializers/assets.rb` and restart your server:
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___2527468877250232960_70122511739180'
+
+Started POST "/__better_errors/ae5cfdbb26cc98f3/variables" for 127.0.0.1 at 2018-04-12 16:14:59 -0400
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:15:25 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (245.6ms)
+Completed 500 Internal Server Error in 533ms
+
+
+
+Sprockets::Rails::Helper::AssetNotPrecompiled - Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( flipclock.css )` to `config/initializers/assets.rb` and restart your server:
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1490858050783052509_70277515783780'
+
+Started POST "/__better_errors/8bee690ce1102aa9/variables" for 127.0.0.1 at 2018-04-12 16:15:26 -0400
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:15:28 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 40ms
+
+
+
+Sprockets::Rails::Helper::AssetNotPrecompiled - Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( flipclock.css )` to `config/initializers/assets.rb` and restart your server:
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1490858050783052509_70277543661900'
+
+Started POST "/__better_errors/b39e5b85bb2f4227/variables" for 127.0.0.1 at 2018-04-12 16:15:28 -0400
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:15:29 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 55ms
+
+
+
+Sprockets::Rails::Helper::AssetNotPrecompiled - Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( flipclock.css )` to `config/initializers/assets.rb` and restart your server:
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1490858050783052509_70277509447320'
+
+Started POST "/__better_errors/3cc58c8063d5c47f/variables" for 127.0.0.1 at 2018-04-12 16:15:29 -0400
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:15:29 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 45ms
+
+
+
+Sprockets::Rails::Helper::AssetNotPrecompiled - Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( flipclock.css )` to `config/initializers/assets.rb` and restart your server:
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1490858050783052509_70277560340700'
+
+Started POST "/__better_errors/356e9545ddf45f5a/variables" for 127.0.0.1 at 2018-04-12 16:15:30 -0400
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:15:46 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 47ms
+
+
+
+Sprockets::Rails::Helper::AssetNotPrecompiled - Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( flipclock.css )` to `config/initializers/assets.rb` and restart your server:
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1490858050783052509_70277517589380'
+
+Started POST "/__better_errors/9b7c52fc22b82b7a/variables" for 127.0.0.1 at 2018-04-12 16:15:47 -0400
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:15:47 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 46ms
+
+
+
+Sprockets::Rails::Helper::AssetNotPrecompiled - Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( flipclock.css )` to `config/initializers/assets.rb` and restart your server:
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1490858050783052509_70277516719820'
+
+Started POST "/__better_errors/e489003eb8655e46/variables" for 127.0.0.1 at 2018-04-12 16:15:48 -0400
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:15:57 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (252.2ms)
+Completed 500 Internal Server Error in 527ms
+
+
+
+Sprockets::Rails::Helper::AssetNotPrecompiled - Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( flipclock.css )` to `config/initializers/assets.rb` and restart your server:
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2849579183991805931_70312773820480'
+
+Started POST "/__better_errors/6c37848f3da9ef6d/variables" for 127.0.0.1 at 2018-04-12 16:15:58 -0400
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:16:19 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 44ms
+
+
+
+Sprockets::Rails::Helper::AssetNotPrecompiled - Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( flipclock.css )` to `config/initializers/assets.rb` and restart your server:
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2849579183991805931_70312803920700'
+
+Started POST "/__better_errors/cf9e7ae4ae734db0/variables" for 127.0.0.1 at 2018-04-12 16:16:20 -0400
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:16:27 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (277.2ms)
+Completed 500 Internal Server Error in 785ms
+
+
+
+Sprockets::Rails::Helper::AssetNotPrecompiled - Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( flipclock.js )` to `config/initializers/assets.rb` and restart your server:
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__2803867210550205664_70358859663740'
+
+Started POST "/__better_errors/35bcd12675fc7e33/variables" for 127.0.0.1 at 2018-04-12 16:16:28 -0400
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:17:28 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (287.7ms)
+Completed 500 Internal Server Error in 682ms
+
+
+
+Sprockets::Rails::Helper::AssetNotPrecompiled - Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( visitors.js )` to `config/initializers/assets.rb` and restart your server:
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___144565786124281022_70317477550860'
+
+Started POST "/__better_errors/a87b0d911e5e08c3/variables" for 127.0.0.1 at 2018-04-12 16:17:29 -0400
+Started GET "/" for 127.0.0.1 at 2018-04-12 16:17:48 -0400
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (272.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.1ms)
+  Rendered layouts/_navigation.html.erb (5.4ms)
+  Rendered layouts/_messages.html.erb (0.9ms)
+Completed 200 OK in 639ms (Views: 411.7ms)
+
+
