@@ -16,15 +16,7 @@
 //= require bootstrap-sprockets
 //= require_tree .
  
- var clock;
-
-      $(document).ready(function() {
-
-        // Instantiate a counter
-        clock = new FlipClock($('.clock'), 300, {
-          clockFace: 'HourlyCounter',
-          autoStart: true,
-          countdown: true
-        });
-        
-      });
+ var clock = $('.clock').FlipClock(3600 * 24 * 3, {
+		clockFace: 'DailyCounter',
+		countdown: true
+	});

@@ -1,12 +1,10 @@
-var clock;
+$(document).ready(function(){
+	var date = new Date(2018, 4, 13, 10);
+    var now = new Date(2018, 4, 12, 4);
+    var diff = (date.getTime()/1000) - (now.getTime()/1000);
 
-      $(document).ready(function() {
-
-        // Instantiate a counter
-        clock = new FlipClock($('.clock'), 300, {
-          clockFace: 'HourlyCounter',
-          autoStart: true,
-          countdown: true
-        });
-        
-      });
+    var clock = $('.clock').FlipClock(diff,{
+        clockFace: 'HourlyCounter',
+        countdown: true
+    }); 
+});
