@@ -12,14 +12,15 @@
 <script type="text/javascript">
       var clock;
 
-      $(document).on('turbolinks:load', function() {
-
+      var ready = function(){
         // Instantiate a counter
         clock = new FlipClock($('.clock'), 300, {
           clockFace: 'HourlyCounter',
           autoStart: true,
           countdown: true
         });
-        
-      });
+      }
+
+$(document).ready(ready);
+$(document).on('turbolinks:load', ready);
     </script>
